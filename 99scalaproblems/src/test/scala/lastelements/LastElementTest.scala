@@ -9,6 +9,7 @@ class LastElementTest extends AnyFlatSpec with should.Matchers with OptionValues
   "An empty list" should "have no last element" in {
     assert(lastElement(List())==None)
 
+
   }
   "A populated list" should "return the last element" in {
     assert(lastElement(List(1, 2, 3))==Some(3))
