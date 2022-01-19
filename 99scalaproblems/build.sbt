@@ -7,7 +7,6 @@ lazy val root = project
     version := "1.0",
 
     scalaVersion := scala3Version,
-
-    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test",
-    libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.7" % Test,
+    libraryDependencies += ("org.scalactic" %% "scalactic" % "3.2.10"),
+    libraryDependencies += ("org.scalatest" %% "scalatest" % "3.2.10" % "test"),
   )
