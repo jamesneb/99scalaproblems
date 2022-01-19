@@ -11,7 +11,7 @@ This was done to familiarize myself with the Scala language
 **Cloning with git cli:**
 
 ```
-	git clone git@github.com:jamesneb/999scalaproblems.git
+	git clone git@github.com:jamesneb/99scalaproblems.git
 ```
 ### Running instructions
 **From cli**
