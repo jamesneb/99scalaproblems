@@ -8,17 +8,21 @@ This was done to familiarize myself with the Scala language
 
 ### Installation instructions
 
-**Cloning with git cli:** ```	git clone git@github.com:jamesneb/999scalaproblems.git
+**Cloning with git cli:**
 
+```	git clone git@github.com:jamesneb/999scalaproblems.git
 ```
-
 ### Running instructions
-**From cli** ```	cd 99scalaproblems
+**From cli**
+
+```	cd 99scalaproblems
 	sbt compile 
 	sbt run
 ```
 
 ### Testing instructions
-**From cli:** ```	cd 99scalaproblems
+**From cli:** 
+
+```	cd 99scalaproblems
 	sbt test 
 ```
