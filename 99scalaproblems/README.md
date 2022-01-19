@@ -10,12 +10,14 @@ This was done to familiarize myself with the Scala language
 
 **Cloning with git cli:**
 
-```	git clone git@github.com:jamesneb/999scalaproblems.git
+```
+git clone git@github.com:jamesneb/999scalaproblems.git
 ```
 ### Running instructions
 **From cli**
 
-```	cd 99scalaproblems
+```	
+	cd 99scalaproblems
 	sbt compile 
 	sbt run
 ```
@@ -23,6 +25,7 @@ This was done to familiarize myself with the Scala language
 ### Testing instructions
 **From cli:** 
 
-```	cd 99scalaproblems
+```	
+	cd 99scalaproblems
 	sbt test 
 ```
