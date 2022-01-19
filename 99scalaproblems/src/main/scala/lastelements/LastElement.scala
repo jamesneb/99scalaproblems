@@ -10,7 +10,7 @@ def lastElement[A](list: List[A]): Option[A] =
     Option(list.last)
   } catch {
     case e: Exception => None
-    case _ => Option(list.last)
+    case _ => Some(list.last)
   }
 
 
